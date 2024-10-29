@@ -1,0 +1,70 @@
+body{
+    color: white;
+    overflow: hidden;
+}
+
+
+.loading{
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loadingin{
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2%;
+    background-color: rgba(0, 0, 0, 0.71);
+    border-radius: 15px;
+}
+
+.logo{
+    width: 50px;
+}
+
+
+i{
+    cursor: pointer;
+}
+
+.side-nav-menu{
+    z-index: 999;
+    
+    
+}
+
+
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 228, 196, 0.623);
+    top: 100%;
+    transition:  all 1s;
+}
+
+
+
+.meal:hover .meal-layer{
+    top: 0%;
+}
+
+
+li{
+    cursor: pointer;
+}
+
+
+
+.size{
+    font-size: 3rem;
+}
+
+
+.alert{
+    width: fit-content;
+}
+
+
+  
